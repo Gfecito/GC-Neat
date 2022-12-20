@@ -2,9 +2,9 @@
 import cv2
 import glob
 import os
-import numpy as np
 from pathlib import Path
 import sys
+import numpy as np
 import struct
 import matplotlib.pyplot as plt
 
@@ -147,6 +147,7 @@ def smallisize(img):
                 for j in range(4):
                     avg += img[y*4+i][x*4+j]
             avg /= 16
+            avg /= 4
             line.append(avg)
         new_image.append(line)
 
