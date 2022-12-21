@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    130130,       2454]
-NotebookOptionsPosition[    125280,       2359]
-NotebookOutlinePosition[    125673,       2375]
-CellTagsIndexPosition[    125630,       2372]
+NotebookDataLength[    130159,       2454]
+NotebookOptionsPosition[    125309,       2359]
+NotebookOutlinePosition[    125702,       2375]
+CellTagsIndexPosition[    125659,       2372]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2325,12 +2325,12 @@ In[50]:=",ExpressionUUID->"1ff6ef1f-5e28-4405-b5d4-1690eb9c22a6"]
 
 Cell["\<\
 
-Model : DispNet had a mean absolute error of 1.42273 with a standard \
-deviation
-> of 1.29639 across 400 test subjects over 8.85251
-
-Model : GCNetDemo had a mean absolute error of 0.849527 with a standard
-> deviation of 1.5992 across 400 test subjects over 14.1687
+Model: DispNet had a mean absolute error of 1.42273 with a standard deviation\\
+ 
+>   of 1.29639 across 400 test subjects over 3.38173
+Model: GCNetDemo had a mean absolute error of 0.849527 with a standard\\
+ 
+>   deviation of 1.5992 across 400 test subjects over 4.08562
 
 Model : GCNetExtraConv had a mean absolute error of 0.844042 with a standard
 > deviation of 1.61979 across 400 test subjects over 4.16037
@@ -2351,8 +2351,8 @@ Model : GCFull had a mean absolute error of 0.513129 with a standard \
 deviation
 > of 1.3363 across 400 test subjects over 9.86614\
 \>", "Text",
- CellChangeTimes->{{3.880501777084161*^9, 
-  3.8805018024669228`*^9}},ExpressionUUID->"8a8aa7aa-0e60-42f6-bd36-\
+ CellChangeTimes->{{3.880501777084161*^9, 3.8805018024669228`*^9}, 
+   3.88053255448936*^9},ExpressionUUID->"8a8aa7aa-0e60-42f6-bd36-\
 044d624c4ceb"]
 }, Open  ]]
 }, Open  ]]
@@ -2435,7 +2435,7 @@ Cell[109087, 1999, 933, 23, 131, "Input",ExpressionUUID->"fe9ec6bb-2236-4f03-9af
 Cell[CellGroupData[{
 Cell[110057, 2027, 285, 5, 67, "Section",ExpressionUUID->"87dce0b5-1a92-4e0c-b32c-3b750a7346e9",
  InitializationCell->True],
-Cell[110345, 2034, 3313, 79, 215, "Input",ExpressionUUID->"d78150a8-58a4-4c39-9ba4-7a20f054ccc5",
+Cell[110345, 2034, 3313, 79, 257, "Input",ExpressionUUID->"d78150a8-58a4-4c39-9ba4-7a20f054ccc5",
  InitializationCell->True],
 Cell[113661, 2115, 1969, 39, 194, "Input",ExpressionUUID->"dc5595ad-aa48-496a-900a-c06bbe4a2dd9",
  InitializationCell->True],
@@ -2453,7 +2453,7 @@ Cell[122289, 2293, 845, 13, 44, "Print",ExpressionUUID->"b63fe1f5-bebf-4722-bd16
 Cell[123137, 2308, 831, 13, 24, "Print",ExpressionUUID->"1ff6ef1f-5e28-4405-b5d4-1690eb9c22a6"]
 }, Open  ]]
 }, Open  ]],
-Cell[123995, 2325, 1257, 30, 564, "Text",ExpressionUUID->"8a8aa7aa-0e60-42f6-bd36-044d624c4ceb"]
+Cell[123995, 2325, 1286, 30, 587, "Text",ExpressionUUID->"8a8aa7aa-0e60-42f6-bd36-044d624c4ceb"]
 }, Open  ]]
 }, Open  ]]
 }
